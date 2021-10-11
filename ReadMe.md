@@ -20,14 +20,14 @@ We plot __*Price*__ against __*Horsepower*__. <br>This model is represented as *
 From the scatter plot, we can see a strong linear relationship between these two variables. <br>
 The red line, is the line our model predicted to summarize this relationship. This is the line of best fit.<br><br>
 The equation of this line can be given by:<br>
-$Price=-14607 +145.4*Horsepower$
+*Price=-14607 +145.4 x Horsepower*
 
 
-![plot.png](attachment:plot.png)
+![plot.png](plot.png)
 
 To understand if the model is the best fit for the predictions, we can look at a number of parameters present in the model summary.
 
-![summary.png](attachment:summary.png)
+![summary.png](summary.png)
 
 - Overall, we can see the model is a good fit to predict price as it has a high adjusted R-squared value at 0.575. Also, the probability value of the F statistic is very close to 0, and is less than 0.05 at a confidence level of 95%. <br>
 
@@ -43,7 +43,7 @@ An example of a multiple linear regression model is:<br>
 *'price ~ Horsepower + Weight'* <br><br>
 
 The equation of this line can be given by:<br>
-$Price=-14607 +27.4*Horsepower + 9.5*Weight$
+*Price=-14607 +27.4 x Horsepower + 9.5 x Weight*
 
 A multiple regressison model Multiple variables cannot be visualized in two-dimensional space. 
 
